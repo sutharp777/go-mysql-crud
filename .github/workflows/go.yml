@@ -19,8 +19,8 @@ jobs:
         go-version: 1.15
     - name: permit 
       run: chmod +x run.sh
-    - name: running run.sh
-      run: ./run.sh
+#     - name: running run.sh
+#       run: ./run.sh
   
     - name: Compose
       run: docker-compose up
